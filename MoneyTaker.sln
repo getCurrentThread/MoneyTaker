@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTaker", "MoneyTaker\MoneyTaker.csproj", "{D1FE0EF5-33C7-42BB-A2BB-2CCB34F6E845}"
 EndProject
@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseSettings", "Databas
 		DBSettings\TableSqlQuery.sql = DBSettings\TableSqlQuery.sql
 		DBSettings\TriggerSqlQuery.sql = DBSettings\TriggerSqlQuery.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppMoneyTaker_Client", "ConsoleAppMoneyTaker_Client\ConsoleAppMoneyTaker_Client.csproj", "{7BB0BC61-5B73-4051-AB42-E70C34F2C601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppMoneyTaker_Server", "ConsoleAppMoneyTaker_Server\ConsoleAppMoneyTaker_Server.csproj", "{5C40608F-45C0-4CE2-B390-4EACDC09E786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +26,14 @@ Global
 		{D1FE0EF5-33C7-42BB-A2BB-2CCB34F6E845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1FE0EF5-33C7-42BB-A2BB-2CCB34F6E845}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1FE0EF5-33C7-42BB-A2BB-2CCB34F6E845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB0BC61-5B73-4051-AB42-E70C34F2C601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB0BC61-5B73-4051-AB42-E70C34F2C601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB0BC61-5B73-4051-AB42-E70C34F2C601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB0BC61-5B73-4051-AB42-E70C34F2C601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C40608F-45C0-4CE2-B390-4EACDC09E786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C40608F-45C0-4CE2-B390-4EACDC09E786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C40608F-45C0-4CE2-B390-4EACDC09E786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C40608F-45C0-4CE2-B390-4EACDC09E786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
